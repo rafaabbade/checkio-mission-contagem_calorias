@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def contagem_calorias(calorias):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(contagem_calorias([2000, 2500, 1800, 2200, 3000, 1600, 2100]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert contagem_calorias([2000, 2500, 1800, 2200, 3000, 1600, 2100]) == 15200
+assert contagem_calorias([0, 0, 0, 0, 0, 0, 0]) == 0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
